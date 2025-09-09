@@ -2,6 +2,8 @@ package pages;
 
 import org.openqa.selenium.By;
 
+import java.applet.*;
+
 public class Locators {
 
 
