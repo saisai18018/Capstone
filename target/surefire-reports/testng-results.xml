@@ -2,88 +2,88 @@
 <testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-09T13:22:48 IST" name="Suite" finished-at="2025-09-09T13:24:17 IST" duration-ms="88610">
+  <suite started-at="2025-09-10T22:09:53 IST" name="Suite" finished-at="2025-09-10T22:11:50 IST" duration-ms="117027">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@32eff876]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-09-09T13:22:48 IST" name="Test" finished-at="2025-09-09T13:24:17 IST" duration-ms="88610">
+    <test started-at="2025-09-10T22:09:53 IST" name="Test" finished-at="2025-09-10T22:11:50 IST" duration-ms="117027">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-09T13:22:48 IST" name="setUp" finished-at="2025-09-09T13:22:57 IST" duration-ms="9028" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-10T22:09:54 IST" name="setUp" finished-at="2025-09-10T22:10:07 IST" duration-ms="13135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-09T13:22:57 IST" name="setupTest" finished-at="2025-09-09T13:22:57 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-10T22:10:07 IST" name="setupTest" finished-at="2025-09-10T22:10:07 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="verifyCorrectUrlOpened()[pri:0, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-09T13:22:57 IST" name="verifyCorrectUrlOpened" finished-at="2025-09-09T13:22:57 IST" duration-ms="25" status="PASS">
+        <test-method signature="verifyCorrectUrlOpened()[pri:0, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-10T22:10:07 IST" name="verifyCorrectUrlOpened" finished-at="2025-09-10T22:10:07 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCorrectUrlOpened -->
-        <test-method signature="verifyLogin()[pri:1, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-09T13:22:57 IST" name="verifyLogin" finished-at="2025-09-09T13:23:02 IST" duration-ms="4458" status="PASS">
+        <test-method signature="verifyLogin()[pri:1, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-10T22:10:07 IST" name="verifyLogin" finished-at="2025-09-10T22:10:15 IST" duration-ms="7844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method signature="verifyProductAddAndQuantity()[pri:0, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-09T13:23:02 IST" name="verifyProductAddAndQuantity" finished-at="2025-09-09T13:23:12 IST" depends-on-methods="tests.LoginTest.verifyLogin" duration-ms="10377" status="PASS">
+        <test-method signature="verifyProductAddAndQuantity()[pri:0, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-10T22:10:15 IST" name="verifyProductAddAndQuantity" finished-at="2025-09-10T22:10:25 IST" depends-on-methods="tests.LoginTest.verifyLogin" duration-ms="10363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductAddAndQuantity -->
-        <test-method signature="verifyCartClosedAndOrdersVisible()[pri:0, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-09T13:23:12 IST" name="verifyCartClosedAndOrdersVisible" finished-at="2025-09-09T13:23:14 IST" depends-on-methods="tests.LoginTest.verifyProductAddAndQuantity" duration-ms="2144" status="PASS">
+        <test-method signature="verifyCartClosedAndOrdersVisible()[pri:0, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-10T22:10:25 IST" name="verifyCartClosedAndOrdersVisible" finished-at="2025-09-10T22:10:27 IST" depends-on-methods="tests.LoginTest.verifyProductAddAndQuantity" duration-ms="2136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCartClosedAndOrdersVisible -->
-        <test-method signature="verifyAddiPhone12Pro()[pri:0, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-09T13:23:15 IST" name="verifyAddiPhone12Pro" finished-at="2025-09-09T13:23:20 IST" depends-on-methods="tests.LoginTest.verifyCartClosedAndOrdersVisible" duration-ms="5128" status="PASS">
+        <test-method signature="verifyAddiPhone12Pro()[pri:0, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-10T22:10:27 IST" name="verifyAddiPhone12Pro" finished-at="2025-09-10T22:10:32 IST" depends-on-methods="tests.LoginTest.verifyCartClosedAndOrdersVisible" duration-ms="5154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddiPhone12Pro -->
-        <test-method signature="verifyCheckout()[pri:3, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-09T13:23:20 IST" name="verifyCheckout" finished-at="2025-09-09T13:23:23 IST" duration-ms="3107" status="PASS">
+        <test-method signature="verifyCheckout()[pri:3, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-10T22:10:33 IST" name="verifyCheckout" finished-at="2025-09-10T22:10:36 IST" duration-ms="3105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckout -->
-        <test-method signature="verifyAddressPositive()[pri:4, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-09T13:23:23 IST" name="verifyAddressPositive" finished-at="2025-09-09T13:23:26 IST" duration-ms="3543" status="PASS">
+        <test-method signature="verifyAddressPositive()[pri:4, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-10T22:10:36 IST" name="verifyAddressPositive" finished-at="2025-09-10T22:10:40 IST" duration-ms="4734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddressPositive -->
-        <test-method signature="verifyReceiptAndContinue()[pri:5, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-09T13:23:26 IST" name="verifyReceiptAndContinue" finished-at="2025-09-09T13:23:30 IST" duration-ms="3266" status="PASS">
+        <test-method signature="verifyReceiptAndContinue()[pri:5, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-10T22:10:40 IST" name="verifyReceiptAndContinue" finished-at="2025-09-10T22:10:44 IST" duration-ms="3233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyReceiptAndContinue -->
-        <test-method signature="seeorder()[pri:6, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-09T13:23:30 IST" name="seeorder" finished-at="2025-09-09T13:23:33 IST" duration-ms="3144" status="PASS">
+        <test-method signature="seeorder()[pri:6, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-10T22:10:44 IST" name="seeorder" finished-at="2025-09-10T22:10:47 IST" duration-ms="3141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seeorder -->
-        <test-method signature="verifyAddToFavourites()[pri:7, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-09T13:23:33 IST" name="verifyAddToFavourites" finished-at="2025-09-09T13:23:39 IST" duration-ms="6418" status="PASS">
+        <test-method signature="verifyAddToFavourites()[pri:7, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-10T22:10:47 IST" name="verifyAddToFavourites" finished-at="2025-09-10T22:10:53 IST" duration-ms="6314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddToFavourites -->
-        <test-method signature="verifyLogout()[pri:8, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-09T13:23:39 IST" name="verifyLogout" finished-at="2025-09-09T13:23:43 IST" duration-ms="3151" status="PASS">
+        <test-method signature="verifyLogout()[pri:8, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-10T22:10:53 IST" name="verifyLogout" finished-at="2025-09-10T22:10:56 IST" duration-ms="3110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-09T13:23:43 IST" name="tearDown" finished-at="2025-09-09T13:23:44 IST" duration-ms="1676" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-10T22:10:56 IST" name="tearDown" finished-at="2025-09-10T22:10:57 IST" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-09T13:23:44 IST" name="tearDownSuite" finished-at="2025-09-09T13:23:44 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.LoginTest@5fdcaa40]" started-at="2025-09-10T22:10:57 IST" name="tearDownSuite" finished-at="2025-09-10T22:10:57 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
       </class> <!-- tests.LoginTest -->
       <class name="runners.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@32eff876]" started-at="2025-09-09T13:23:44 IST" name="setUpClass" finished-at="2025-09-09T13:23:45 IST" duration-ms="585" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@32eff876]" started-at="2025-09-10T22:10:57 IST" name="setUpClass" finished-at="2025-09-10T22:10:57 IST" duration-ms="649" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6b24ddd7]]>
+                <![CDATA[org.testng.TestRunner@2211b44f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@32eff876]" started-at="2025-09-09T13:23:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T13:23:54 IST" duration-ms="8802" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@32eff876]" started-at="2025-09-10T22:10:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-10T22:11:08 IST" duration-ms="10266" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@32eff876]" started-at="2025-09-09T13:23:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T13:24:01 IST" duration-ms="6943" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@32eff876]" started-at="2025-09-10T22:11:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-10T22:11:27 IST" duration-ms="19799" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,7 +115,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@32eff876]" started-at="2025-09-09T13:24:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T13:24:09 IST" duration-ms="8599" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@32eff876]" started-at="2025-09-10T22:11:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-10T22:11:39 IST" duration-ms="11600" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -131,7 +131,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@32eff876]" started-at="2025-09-09T13:24:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T13:24:17 IST" duration-ms="7281" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@32eff876]" started-at="2025-09-10T22:11:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-10T22:11:50 IST" duration-ms="11317" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,7 +147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@32eff876]" started-at="2025-09-09T13:24:17 IST" name="tearDownClass" finished-at="2025-09-09T13:24:17 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@32eff876]" started-at="2025-09-10T22:11:50 IST" name="tearDownClass" finished-at="2025-09-10T22:11:50 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
